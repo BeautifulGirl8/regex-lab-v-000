@@ -19,10 +19,10 @@ end
 
 
 
-require 'pry'
+
 
 def first_word_capitalized_and_ends_with_punctuation?(word)
-binding.pry
+
  if (/^[A-Z].+[\.!?]$).match?(word)
 return true
  else
